@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-family: "OCR A Std", monospace; /* specificity =  */
+    font-family: "OCR A Std", monospace; /* specificity = 005 */
     font-size: 45px; /* specificity = 002 */
     text-transform: uppercase; /* specificity = 002 */
     text-align: center; /* specificity = 002 */
@@ -13,14 +13,14 @@ h1{
 }
 
 h2, h3, h4 {
-    font-family: "OCR A Std", monospace; /* specificity =  */
+    font-family: "OCR A Std", monospace; /* specificity = 005 */
     text-transform: uppercase; /* specificity = 002 */ 
     background-color: #6d6c6e; /* specificity = 101 */
     color: #0b5c1c; /* specificity = 101 */
 }
 
 p {
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     text-align: justify; /* specificity = 002 */ 
     background-color: #8b8888; /* specificity = 101 */
     color: chartreuse; /* specificity = 002 */ 
@@ -28,7 +28,7 @@ p {
 }
 
 div.desc  {
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     text-align: center;
     background-color: #8b8888; /* specificity = 101 */
     color: chartreuse; /* specificity = 002 */ 
@@ -36,19 +36,21 @@ div.desc  {
 }
 
 a:link, a:visited {
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     color: chartreuse; /* specificity = 002 */
+    background-color: #8b8888; /* specificity = 101 */
     font-size: 17px; /* specificity = 002 */
 }
 
 a:hover, a:active {
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     color: #0b5c1c; /* specificity = 002 */
+    background-color: #8b8888; /* specificity = 101 */
     font-size: 17px; /* specificity = 002 */
 }
 
 ul {
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     text-align: justify; /* specificity = 002 */
     background-color:  #807d7d; /* specificity = 101 */
     color: chartreuse; /* specificity = 002 */ 
@@ -58,7 +60,7 @@ ul {
 
 table, th, td {
     border-collapse: collapse; /* specificity = 002 */
-    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
     font-size: 17px; /* specificity = 002 */
 }
 
@@ -78,29 +80,30 @@ td {
 }
 
 div.menu {
-    border: 1px solid black;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-color: #807d7d;
+    border: 1px solid black; /* specificity = 004 */
+    padding-left: 2px; /* specificity = 002 */
+    padding-right: 2px; /* specificity = 002 */
+    background-color: #807d7d; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    margin: 5px; /* specificity = 002 */
+    border: 1px solid #ccc; /* specificity = 103 */
+    float: left; /* specificity = 002 */
+    width: 180px; /* specificity = 002 */
 }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #777; /* specificity = 103 */
 }
 
 div.gallery img{
-    width: 100%;
-    height: auto;
+    width: 100%; /* specificity = 002 */
+    height: auto; /* specificity = 002 */ 
 }
 
 video {
-    width: 550;
-    height: auto;
+    width: 550px; /* specificity = 002 */
+    height: auto; /* specificity = 002 */
 }

@@ -1,51 +1,51 @@
 .hIndex {
-    grid-area: header;
+    grid-area: header; /* specificity = 002 */
 }
 
 .mIndex {
-    grid-area: main;
+    grid-area: main; /* specificity = 002 */
 }
 
 .a1Index {
-    grid-area: aside1;
+    grid-area: aside1; /* specificity = 002 */
 }
 
 .a2Index {
-    grid-area: aside2;
+    grid-area: aside2; /* specificity = 002 */
 }
 
 .fIndex {
-    grid-area: footer;
+    grid-area: footer; /* specificity = 002 */
 }
 
 .layout-index {
-    display: grid;
+    display: grid; /* specificity = 002 */
     grid-template-areas: 
         'header header header header header header'
         'aside1 aside1 main main main aside2'
-        'footer footer footer footer footer footer';
-        grid-gap: 5px;
-    padding: 15px;
+        'footer footer footer footer footer footer'; /* specificity = 0019 */
+    grid-gap: 5px; /* specificity = 002 */
+    padding: 15px; /* specificity = 002 */
 }
 
 .hReparto {
-    grid-area: header;
+    grid-area: header; /* specificity = 002 */
 }
 
 .mReparto {
-    grid-area: main;
+    grid-area: main; /* specificity = 002 */
 }
 
 .fReparto {
-    grid-area: footer;
+    grid-area: footer; /* specificity = 002 */
 }
 
 .layout-reparto {
-    display: grid;
+    display: grid; /* specificity = 002 */
     grid-template-areas: 
         'header'
         'main'
-        'footer';
-        grid-gap: 5px;
-    padding: 15px;
+        'footer'; /* specificity = 004 */
+    grid-gap: 5px; /* specificity = 002 */
+    padding: 15px; /* specificity = 002 */
 }

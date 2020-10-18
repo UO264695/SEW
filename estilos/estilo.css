@@ -21,7 +21,7 @@ h2, h3, h4 {
 
 p {
     font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity = 008 */
-    text-align: justify; /* specificity = 002 */ 
+    text-align: left; /* specificity = 002 */ 
     background-color: #434242; /* specificity = 101 */
     color:#7fff00; /* specificity = 002 */
     font-size: 17px; /* specificity = 002 */

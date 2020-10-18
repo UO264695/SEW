@@ -1,0 +1,106 @@
+body{
+    background-color: #8b8888; /* specificity = 101 */
+    color: black; /* specificity = 002 */
+}
+
+h1{
+    font-family: "OCR A Std", monospace; /* specificity =  */
+    font-size: 45px; /* specificity = 002 */
+    text-transform: uppercase; /* specificity = 002 */
+    text-align: center; /* specificity = 002 */
+    background-color: #000000; /* specificity = 101 */
+    color: #38eb38; /* specificity = 101 */
+}
+
+h2, h3, h4 {
+    font-family: "OCR A Std", monospace; /* specificity =  */
+    text-transform: uppercase; /* specificity = 002 */ 
+    background-color: #6d6c6e; /* specificity = 101 */
+    color: #0b5c1c; /* specificity = 101 */
+}
+
+p {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    text-align: justify; /* specificity = 002 */ 
+    background-color: #8b8888; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */ 
+    font-size: 17px; /* specificity = 002 */
+}
+
+div.desc  {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    text-align: center;
+    background-color: #8b8888; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */ 
+    font-size: 17px; /* specificity = 002 */
+}
+
+a:link, a:visited {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    color: chartreuse; /* specificity = 002 */
+    font-size: 17px; /* specificity = 002 */
+}
+
+a:hover, a:active {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    color: #0b5c1c; /* specificity = 002 */
+    font-size: 17px; /* specificity = 002 */
+}
+
+ul {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    text-align: justify; /* specificity = 002 */
+    background-color:  #807d7d; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */ 
+    font-size: 17px; /* specificity = 002 */
+    list-style-type: square; /* specificity = 002 */
+}
+
+table, th, td {
+    border-collapse: collapse; /* specificity = 002 */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-size: 17px; /* specificity = 002 */
+}
+
+table{
+    width: 75%; /* specificity = 002 */
+}
+
+th {
+    background-color: green; /* specificity = 002 */
+    color: white; /* specificity = 002 */
+    text-transform: uppercase; /* specificity = 002 */
+}
+
+td {
+    background-color: #52d652; /* specificity = 101 */
+    color: black; /* specificity = 002 */
+}
+
+div.menu {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #807d7d;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+video {
+    width: 550;
+    height: auto;
+}

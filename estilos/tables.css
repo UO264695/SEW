@@ -1,0 +1,29 @@
+ul {
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    text-align: justify; /* specificity = 002 */
+    background-color:  #8b8888; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */ 
+    font-size: 17px; /* specificity = 002 */
+    list-style-type: square; /* specificity = 002 */
+}
+
+table, th, td {
+    border-collapse: collapse; /* specificity = 002 */
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    font-size: 17px; /* specificity = 002 */
+}
+
+table{
+    width: 75%; /* specificity = 002 */
+}
+
+th {
+    background-color: green; /* specificity = 002 */
+    color: white; /* specificity = 002 */
+    text-transform: uppercase; /* specificity = 002 */
+}
+
+td {
+    background-color: #52d652; /* specificity = 101 */
+    color: black; /* specificity = 002 */
+}

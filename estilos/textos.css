@@ -1,0 +1,23 @@
+h1{
+    font-family: "OCR A Std", monospace; /* specificity =  */
+    font-size: 45px; /* specificity = 002 */
+    text-transform: uppercase; /* specificity = 002 */
+    text-align: center; /* specificity = 002 */
+    background-color: #000000; /* specificity = 101 */
+    color: #38eb38; /* specificity = 101 */
+}
+
+h2, h3, h4 {
+    font-family: "OCR A Std", monospace; /* specificity =  */
+    text-transform: uppercase; /* specificity = 002 */ 
+    background-color: #6d6c6e; /* specificity = 101 */
+    color: #0b5c1c; /* specificity = 101 */
+}
+
+p{
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif; /* specificity =  */
+    text-align: justify; /* specificity = 002 */ 
+    background-color: #8b8888; /* specificity = 101 */
+    color: chartreuse; /* specificity = 002 */ 
+    font-size: 17px; /* specificity = 002 */
+}

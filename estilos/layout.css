@@ -1,0 +1,51 @@
+.hIndex {
+    grid-area: header;
+}
+
+.mIndex {
+    grid-area: main;
+}
+
+.a1Index {
+    grid-area: aside1;
+}
+
+.a2Index {
+    grid-area: aside2;
+}
+
+.fIndex {
+    grid-area: footer;
+}
+
+.layout-index {
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'aside1 aside1 main main main aside2'
+        'footer footer footer footer footer footer';
+        grid-gap: 5px;
+    padding: 15px;
+}
+
+.hReparto {
+    grid-area: header;
+}
+
+.mReparto {
+    grid-area: main;
+}
+
+.fReparto {
+    grid-area: footer;
+}
+
+.layout-reparto {
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+        grid-gap: 5px;
+    padding: 15px;
+}
